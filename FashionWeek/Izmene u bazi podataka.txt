@@ -1,0 +1,419 @@
+***Izmene
+
+1. Prvobitno je korisceno 8A nasledjivanje prilikom prevodjenja Osobe-ModniKreator-Maneken, sada je odredjeno 8B s obzirom da je bio otezan pregled podataka sa odvojenom tabelom Osoba u bazi:
+
+to podrazumeva da imamo:
+
+Maneken
+MBR(pk) Pol DatumRodjenja ZemljaPorekla Ime Prezime BojaKose Visina BojaOciju Tezina KonfekcijskiBroj ...
+
+ModniKreator
+
+MBR(pk) Pol DatumRodjenja ZemljaPorekla Ime Prezime CenaUsluge ...
+
+samim tim je specijalizacija totalna...
+
+2. Dodato ZanimanjeJL u tabeli ModnaRevija 
+ALTER TABLE ModnaRevija
+ADD  ZANIMANJEJL VARCHAR(20);
+
+3. Promenjen PK u tabeli ImenaVlasnika, kompozitni je 
+CREATE TABLE ImenaVlasnika (
+    ModnaKuca VARCHAR(255),
+    ImenaVlasnika VARCHAR(255),
+    PRIMARY KEY (ModnaKuca,ImenaVlasnika),
+    FOREIGN KEY (ModnaKuca) REFERENCES ModnaKuca(Naziv)
+);
+
+4. Kreiranje tabela sa trigerima i pocetnim podacima
+
+CREATE TABLE ModnaKuca (
+    Naziv VARCHAR(255),
+    Ime VARCHAR(255),
+    Prezime VARCHAR(255),
+    Drzava VARCHAR(255),
+    Grad VARCHAR(255),
+    OrganizatorID INT,
+    PRIMARY KEY (Naziv),
+    FOREIGN KEY (OrganizatorID) REFERENCES Organizator(OrganizatorID)
+);
+
+CREATE TABLE Organizator (
+    OrganizatorID INT,
+    Kolekcija VARCHAR(255),
+    PrvaModnaRevija VARCHAR(2),
+    PRIMARY KEY (OrganizatorID)
+);
+
+CREATE OR REPLACE TRIGGER set_organizator_id
+BEFORE INSERT ON ORGANIZATOR
+FOR EACH ROW
+DECLARE
+    novi_id NUMBER;
+BEGIN
+    -- Pronalaženje maksimalne vrednosti OrganizatorID-a u tabeli, ako nema zapisa, po?etna vrednost je 0
+    SELECT NVL(MAX(OrganizatorID), 2) + 1 INTO novi_id FROM ORGANIZATOR;
+
+    -- Postavljanje novog OrganizatorID-a za novi unos
+    :NEW.OrganizatorID := novi_id;
+END;
+/
+
+CREATE TABLE ModnaRevija (
+    IdModneRevije INT,
+    RedniBroj INT,
+    Naziv VARCHAR(20),
+    Grad VARCHAR(20),
+    DatumOdrzavanja DATE,
+    VremeOdrzavanja INT, 
+    OrganizatorID INT,
+    ImeJavneLicnosti VARCHAR(20),
+    PrezimeJavneLicnosti VARCHAR(20),
+    ZanimanjeJL VARCHAR(20),
+    PRIMARY KEY (IdModneRevije),
+    FOREIGN KEY (OrganizatorID) REFERENCES Organizator(OrganizatorID)
+);
+
+CREATE OR REPLACE TRIGGER set_id_modne_revije
+BEFORE INSERT ON ModnaRevija
+FOR EACH ROW
+DECLARE
+    novi_id NUMBER;
+BEGIN
+    -- Pronalaženje maksimalne vrednosti IdModneRevije u tabeli, ako nema zapisa, po?etna vrednost je 2
+    SELECT NVL(MAX(IdModneRevije), 2) + 1 INTO novi_id FROM ModnaRevija;
+
+    -- Postavljanje novog IdModneRevije za novi unos
+    :NEW.IdModneRevije := novi_id;
+END;
+/
+
+CREATE TABLE Maneken (
+    MBR CHAR(13),
+    Pol CHAR(1) CHECK (Pol IN ('M','Z')),
+    DatumRodjenja DATE,
+    ZemljaPorekla VARCHAR(20),
+    Ime VARCHAR(20),
+    Prezime VARCHAR(20), 
+    BojaKose VARCHAR(20),
+    Visina INT,
+    BojaOciju VARCHAR(20),
+    Tezina FLOAT,
+    KonfekcijskiBroj VARCHAR(10),
+    PIBModneAgencije CHAR(9), 
+    PRIMARY KEY (MBR),
+    FOREIGN KEY (PIBModneAgencije) REFERENCES ModnaAgencija(PIB)
+   
+    
+);
+
+CREATE TABLE ModniKreator (
+    MBR CHAR(13),
+    Pol CHAR(1) CHECK (Pol IN ('M','Z')),
+    DatumRodjenja DATE,
+    ZemljaPorekla VARCHAR(20),
+    Ime VARCHAR(20),
+    Prezime VARCHAR(20),
+    CenaUsluge INT,
+    OrganizatorID INT,
+    NazivModneKuce VARCHAR(20),
+    PRIMARY KEY (MBR),
+    FOREIGN KEY (OrganizatorID) REFERENCES Organizator(OrganizatorID),
+    FOREIGN KEY (NazivModneKuce) REFERENCES ModnaKuca(Naziv)
+    
+);
+
+CREATE TABLE ModnaAgencija (
+    PIB CHAR(9),
+    Naziv VARCHAR(255),
+    DatumOsnivanja DATE,
+    Drzava VARCHAR(255),
+    Grad VARCHAR(255),
+    PInternacionalna INT CHECK (PInternacionalna IN (0, 1)),
+    PRIMARY KEY (PIB)
+);
+
+CREATE TABLE Maneken (
+    MBR CHAR(13),
+    Pol CHAR(1) CHECK (Pol IN ('M','Z')),
+    DatumRodjenja DATE,
+    ZemljaPorekla VARCHAR(20),
+    Ime VARCHAR(20),
+    Prezime VARCHAR(20), 
+    BojaKose VARCHAR(20),
+    Visina INT,
+    BojaOciju VARCHAR(20),
+    Tezina FLOAT,
+    KonfekcijskiBroj VARCHAR(10),
+    PIBModneAgencije CHAR(9), 
+    PRIMARY KEY (MBR),
+    FOREIGN KEY (PIBModneAgencije) REFERENCES ModnaAgencija(PIB)
+    
+);
+
+CREATE TABLE Predstavlja (
+    MBR CHAR(13), 
+    IDModneRevije INT,
+    FOREIGN KEY (MBR) REFERENCES ModniKreator(MBR),
+    FOREIGN KEY (IDModneRevije) REFERENCES ModnaRevija(IdModneRevije),
+    PRIMARY KEY (MBR, IDModneRevije)
+);
+
+CREATE TABLE SpecijalniGost (
+    MBRModniKreator CHAR(13), 
+    IDModneRevije INT,
+    IDGosta INT,
+    FOREIGN KEY (MBRModniKreator) REFERENCES ModniKreator(MBR),
+    FOREIGN KEY (IDModneRevije) REFERENCES ModnaRevija(IdModneRevije),
+    PRIMARY KEY (IDGosta)
+);
+
+CREATE TABLE Nastupa (
+    ModnaRevija INT,
+    ManekenMBR CHAR(13),
+    FOREIGN KEY (ModnaRevija) REFERENCES ModnaRevija(IdModneRevije),
+    FOREIGN KEY (ManekenMBR) REFERENCES Maneken(MBR),
+    PRIMARY KEY (ModnaRevija, ManekenMBR)
+);
+
+CREATE TABLE ImenaVlasnika (
+    ModnaKuca VARCHAR(255),
+    ImenaVlasnika VARCHAR(255),
+    PRIMARY KEY (ModnaKuca),
+    FOREIGN KEY (ModnaKuca) REFERENCES ModnaKuca(Naziv)
+);
+
+CREATE TABLE NaziviZemalja (
+    ModnaAgencija CHAR(9), 
+    Zemlje VARCHAR(255),
+    PRIMARY KEY (ModnaAgencija, Zemlje),
+    FOREIGN KEY (ModnaAgencija) REFERENCES ModnaAgencija(PIB)
+);
+
+CREATE TABLE Casopisi (
+    Maneken CHAR(13), 
+    NaziviCasopisa VARCHAR(255),
+    PRIMARY KEY (Maneken, NaziviCasopisa),
+    FOREIGN KEY (Maneken) REFERENCES Maneken(MBR)
+);
+
+CREATE OR REPLACE TRIGGER set_id_gosta
+BEFORE INSERT ON SpecijalniGost
+FOR EACH ROW
+DECLARE
+    novi_id NUMBER;
+BEGIN
+    -- Pronalaženje maksimalne vrednosti IDGOSTA u tabeli, ako nema zapisa, po?etna vrednost je 3
+    SELECT NVL(MAX(IDGOSTA), 2) + 1 INTO novi_id FROM SpecijalniGost;
+
+    -- Postavljanje novog IDGOSTA za novi unos
+    :NEW.IDGOSTA := novi_id;
+END;
+/
+INSERT INTO Organizator (OrganizatorID, Kolekcija, PrvaModnaRevija) VALUES 
+(8, 'Prolece/Leto 2024', 'y');
+INSERT INTO Organizator (OrganizatorID, Kolekcija, PrvaModnaRevija) VALUES 
+(9, 'Jesen/Zima 2024',  'n');
+INSERT INTO Organizator (OrganizatorID, Kolekcija, PrvaModnaRevija) VALUES 
+(10, 'Leto 2021', 'y');
+INSERT INTO Organizator (OrganizatorID, Kolekcija, PrvaModnaRevija) VALUES 
+(11, 'Zima 2024',  'n');
+
+INSERT INTO ModnaKuca (Naziv, Ime, Prezime, Drzava, Grad, OrganizatorID) VALUES 
+('Elegance Couture', 'Ana', 'Kovacevic', 'Srbija', 'Nis', 3);
+INSERT INTO ModnaKuca (Naziv, Ime, Prezime, Drzava, Grad, OrganizatorID) VALUES 
+('Trendy Fashion', 'Marko', 'Djordjevic', 'Srbija', 'Subotica', 4);
+INSERT INTO ModnaKuca (Naziv, Ime, Prezime, Drzava, Grad, OrganizatorID) VALUES 
+('Unique Design', 'Sara', 'Petrovic', 'Srbija', 'Kragujevac', 5);
+INSERT INTO ModnaKuca (Naziv, Ime, Prezime, Drzava, Grad, OrganizatorID) VALUES 
+('Avant-Garde Styles', 'Ivan', 'Nikolic', 'Srbija', 'Novi Sad',8);
+INSERT INTO ModnaKuca (Naziv, Ime, Prezime, Drzava, Grad, OrganizatorID) VALUES 
+('Select', 'Jelena', 'Jovanovic', 'Srbija', 'Beograd', 9);
+INSERT INTO ModnaKuca (Naziv, Ime, Prezime, Drzava, Grad, OrganizatorID) VALUES 
+('Fashion Forward', 'Milan', 'Mihailovic', 'Srbija', 'Nis', NULL);
+INSERT INTO ModnaKuca (Naziv, Ime, Prezime, Drzava, Grad, OrganizatorID) VALUES 
+('Urban Vogue', 'Dragana', 'Milosevic', 'Srbija', 'Novi Pazar', NULL);
+INSERT INTO ModnaKuca (Naziv, Ime, Prezime, Drzava, Grad, OrganizatorID) VALUES 
+('Elegant Trends', 'Petar', 'Radovanovic', 'Srbija', 'Zrenjanin', NULL);
+
+
+
+
+
+INSERT INTO ModnaRevija (IdModneRevije, RedniBroj, Naziv, Grad, DatumOdrzavanja, VremeOdrzavanja, OrganizatorID, ImeJavneLicnosti, PrezimeJavneLicnosti,ZanimanjeJL) VALUES 
+(1, 1, 'Spring Collection', 'Beograd', DATE '2024-04-01', 18, 3, 'Mila', 'Jovanovic','pevacica');
+INSERT INTO ModnaRevija (IdModneRevije, RedniBroj, Naziv, Grad, DatumOdrzavanja, VremeOdrzavanja, OrganizatorID, ImeJavneLicnosti, PrezimeJavneLicnosti,ZanimanjeJL) VALUES 
+(2, 2, 'Summer Fashion', 'Novi Sad', DATE '2024-07-15', 20, 4, 'Marko', 'Markovic','glumica');
+INSERT INTO ModnaRevija (IdModneRevije, RedniBroj, Naziv, Grad, DatumOdrzavanja, VremeOdrzavanja, OrganizatorID, ImeJavneLicnosti, PrezimeJavneLicnosti, ZanimanjeJL) VALUES 
+(7, 3, 'Autumn Elegance', 'Nis', DATE '2024-09-30', 19, 5, 'Ana', 'Petrovic', 'model');
+INSERT INTO ModnaRevija (IdModneRevije, RedniBroj, Naziv, Grad, DatumOdrzavanja, VremeOdrzavanja, OrganizatorID, ImeJavneLicnosti, PrezimeJavneLicnosti, ZanimanjeJL) VALUES 
+(8, 4, 'Winter Wonderland', 'Subotica', DATE '2024-12-20', 21, 6, 'Jovana', 'Ilic', 'TV voditeljka');
+INSERT INTO ModnaRevija (IdModneRevije, RedniBroj, Naziv, Grad, DatumOdrzavanja, VremeOdrzavanja, OrganizatorID, ImeJavneLicnosti, PrezimeJavneLicnosti, ZanimanjeJL) VALUES 
+(9, 5, 'Festive Fashion', 'Kragujevac', DATE '2024-11-10', 18, 7, 'Nikola', 'Stefanovic', 'sportista');
+INSERT INTO ModnaRevija (IdModneRevije, RedniBroj, Naziv, Grad, DatumOdrzavanja, VremeOdrzavanja, OrganizatorID, ImeJavneLicnosti, PrezimeJavneLicnosti, ZanimanjeJL) VALUES 
+(10, 6, 'Urban Styles', 'Novi Pazar', DATE '2024-06-25', 19, 8, 'NULL', 'NULL', 'NULL');
+INSERT INTO ModnaRevija (IdModneRevije, RedniBroj, Naziv, Grad, DatumOdrzavanja, VremeOdrzavanja, OrganizatorID, ImeJavneLicnosti, PrezimeJavneLicnosti, ZanimanjeJL) VALUES 
+(11, 7, 'Glamorous Nights', 'Zrenjanin', DATE '2024-05-10', 20, 9, 'NULL', 'NULL', 'NULL');
+
+
+
+INSERT INTO ModnaAgencija (PIB, Naziv, DatumOsnivanja, Drzava, Grad, PInternacionalna) VALUES 
+('123456789', 'Model Look', DATE '2010-06-12', 'Srbija', 'Beograd', 0);
+INSERT INTO ModnaAgencija (PIB, Naziv, DatumOsnivanja, Drzava, Grad, PInternacionalna) VALUES 
+('234567890', 'Glam Models', DATE '2005-03-25', 'Frabcuska', 'Pariz', 1);
+INSERT INTO ModnaAgencija (PIB, Naziv, DatumOsnivanja, Drzava, Grad, PInternacionalna) VALUES 
+('345678901', 'Elite Fashion', DATE '2015-09-10', 'Italija', 'Milano', 1);
+INSERT INTO ModnaAgencija (PIB, Naziv, DatumOsnivanja, Drzava, Grad, PInternacionalna) VALUES 
+('456789012', 'Star Models', DATE '2000-02-14', 'Srbija', 'Novi Sad', 0);
+INSERT INTO ModnaAgencija (PIB, Naziv, DatumOsnivanja, Drzava, Grad, PInternacionalna) VALUES 
+('567890123', 'Global Talent', DATE '2018-11-20', 'Sjedinjene Američke Države', 'Njujork', 1);
+INSERT INTO ModnaAgencija (PIB, Naziv, DatumOsnivanja, Drzava, Grad, PInternacionalna) VALUES 
+('678901234', 'Runway Stars', DATE '2012-04-05', 'Velika Britanija', 'London', 1);
+INSERT INTO ModnaAgencija (PIB, Naziv, DatumOsnivanja, Drzava, Grad, PInternacionalna) VALUES 
+('789012345', 'Beauty Icons', DATE '2008-07-19', 'Španija', 'Madrid', 1);
+
+
+
+
+
+INSERT INTO ModniKreator (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, CenaUsluge, OrganizatorID, NazivModneKuce)
+VALUES ('1234567890123', 'M', TO_DATE('1980-05-15', 'YYYY-MM-DD'), 'Srbija', 'Marko', 'Markovic', 1500, 3, 'Elegance Couture');
+INSERT INTO ModniKreator (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, CenaUsluge, OrganizatorID, NazivModneKuce)
+VALUES ('1234567890124', 'Z', TO_DATE('1985-07-20', 'YYYY-MM-DD'), 'Hrvatska', 'Ana', 'Ani', 2000, 4, 'Trendy Fashion');
+INSERT INTO ModniKreator (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, CenaUsluge, OrganizatorID, NazivModneKuce)
+VALUES ('1234567890125', 'M', TO_DATE('1982-09-10', 'YYYY-MM-DD'), 'Srbija', 'Nikola', 'Nikolic', 1800, 11, 'Unique Design');
+INSERT INTO ModniKreator (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, CenaUsluge, OrganizatorID, NazivModneKuce)
+VALUES ('1234567890126', 'Z', TO_DATE('1978-12-03', 'YYYY-MM-DD'), 'Hrvatska', 'Ivana', 'Ivanović', 2200, 6, 'Avant-Garde Styles');
+INSERT INTO ModniKreator (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, CenaUsluge, OrganizatorID, NazivModneKuce)
+VALUES ('1234567890127', 'M', TO_DATE('1987-04-25', 'YYYY-MM-DD'), 'Srbija', 'Stefan', 'Stefanovic', 1600, NULL, 'Select');
+INSERT INTO ModniKreator (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, CenaUsluge, OrganizatorID, NazivModneKuce)
+VALUES ('1234567890128', 'Z', TO_DATE('1984-08-15', 'YYYY-MM-DD'), 'BiH', 'Jovana', 'Jovanovic', 2000, NULL, 'Fashion Forward');
+INSERT INTO ModniKreator (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, CenaUsluge, OrganizatorID, NazivModneKuce)
+VALUES ('1234567890129', 'M', TO_DATE('1990-03-20', 'YYYY-MM-DD'), 'Crna Gora', 'Marko', 'Marković', 1900, NULL, 'Urban Vogue');
+
+
+
+
+
+INSERT INTO Maneken (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, BojaKose, Visina, BojaOciju, Tezina, KonfekcijskiBroj, PIBModneAgencije)
+VALUES ('1111111111111', 'M', TO_DATE('1995-05-15', 'YYYY-MM-DD'), 'Srbija', 'Milan', 'Milovanovi?', 'Crna', 180, 'Plava', 75.5, 'L', '123456789');
+INSERT INTO Maneken (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, BojaKose, Visina, BojaOciju, Tezina, KonfekcijskiBroj, PIBModneAgencije)
+VALUES ('2222222222222', 'Z', TO_DATE('1998-07-20', 'YYYY-MM-DD'), 'Hrvatska', 'Ana', 'Strainovic', 'Plava', 175, 'Zelena', 60.0, 'S', '234567890');
+INSERT INTO Maneken (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, BojaKose, Visina, BojaOciju, Tezina, KonfekcijskiBroj, PIBModneAgencije)
+VALUES ('3333333333333', 'M', TO_DATE('1997-10-10', 'YYYY-MM-DD'), 'Srbija', 'Nikola', 'Nikolić', 'Smedja', 185, 'Plava', 80.0, 'L', '123456789');
+INSERT INTO Maneken (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, BojaKose, Visina, BojaOciju, Tezina, KonfekcijskiBroj, PIBModneAgencije)
+VALUES ('4444444444444', 'Z', TO_DATE('2000-03-05', 'YYYY-MM-DD'), 'Hrvatska', 'Jovana', 'Jovanović', 'Plava', 170, 'Zelena', 58.0, 'S', '234567890');
+INSERT INTO Maneken (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, BojaKose, Visina, BojaOciju, Tezina, KonfekcijskiBroj, PIBModneAgencije)
+VALUES ('5555555555555', 'M', TO_DATE('1996-01-20', 'YYYY-MM-DD'), 'Crna Gora', 'Stefan', 'Stefanović', 'Crna', 178, 'Plava', 75.0, 'M', '567890123');
+INSERT INTO Maneken (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, BojaKose, Visina, BojaOciju, Tezina, KonfekcijskiBroj, PIBModneAgencije)
+VALUES ('6666666666666', 'Z', TO_DATE('1999-07-15', 'YYYY-MM-DD'), 'BiH', 'Ivana', 'Ivanović', 'Plava', 175, 'Zelena', 62.0, 'S', '678901234');
+INSERT INTO Maneken (MBR, Pol, DatumRodjenja, ZemljaPorekla, Ime, Prezime, BojaKose, Visina, BojaOciju, Tezina, KonfekcijskiBroj, PIBModneAgencije)
+VALUES ('7777777777777', 'M', TO_DATE('1998-05-30', 'YYYY-MM-DD'), 'Srbija', 'Marko', 'Marković', 'Smedja', 182, 'Plava', 79.0, 'M', '789012345');
+
+
+
+
+INSERT INTO Predstavlja (MBR, IDModneRevije) VALUES 
+(1234567890123, 3);
+INSERT INTO Predstavlja (MBR, IDModneRevije) VALUES 
+(1234567890124, 4);
+INSERT INTO Predstavlja (MBR, IDModneRevije) VALUES 
+(1234567890125, 7);
+INSERT INTO Predstavlja (MBR, IDModneRevije) VALUES 
+(1234567890126, 8);
+INSERT INTO Predstavlja (MBR, IDModneRevije) VALUES 
+(1234567890127, 9);
+INSERT INTO Predstavlja (MBR, IDModneRevije) VALUES 
+(1234567890128, 9);
+INSERT INTO Predstavlja (MBR, IDModneRevije) VALUES 
+(1234567890129, 8);
+INSERT INTO Predstavlja (MBR, IDModneRevije) VALUES 
+(1234567890127, 7);
+INSERT INTO Predstavlja (MBR, IDModneRevije) VALUES 
+(1234567890125, 8);
+
+
+
+INSERT INTO SpecijalniGost (MBRModniKreator, IDModneRevije, IDGosta) VALUES 
+('1234567890123', 3, 1);
+INSERT INTO SpecijalniGost (MBRModniKreator, IDModneRevije, IDGosta) VALUES 
+('1234567890124', 4, 2);
+INSERT INTO SpecijalniGost (MBRModniKreator, IDModneRevije, IDGosta) VALUES 
+('1234567890125', 6, 4);
+INSERT INTO SpecijalniGost (MBRModniKreator, IDModneRevije, IDGosta) VALUES 
+('1234567890126', 7, 5);
+INSERT INTO SpecijalniGost (MBRModniKreator, IDModneRevije, IDGosta) VALUES 
+('1234567890127', 6, 6);
+INSERT INTO SpecijalniGost (MBRModniKreator, IDModneRevije, IDGosta) VALUES 
+('1234567890128', 7, 7);
+
+
+
+
+INSERT INTO ImenaVlasnika (ModnaKuca, ImenaVlasnika) VALUES 
+('Elegance Couture', 'Ana Kovacevic');
+INSERT INTO ImenaVlasnika (ModnaKuca, ImenaVlasnika) VALUES 
+('Trendy Fashion', 'Marko Djordjevic');
+INSERT INTO ImenaVlasnika (ModnaKuca, ImenaVlasnika) VALUES 
+('Avant-Garde Styles', 'Mina Petrovic');
+INSERT INTO ImenaVlasnika (ModnaKuca, ImenaVlasnika) VALUES 
+('Select', 'Marko Markovic, Petra Tosic');
+
+INSERT INTO ImenaVlasnika (ModnaKuca, ImenaVlasnika) VALUES 
+('Urban Vogue', 'Marko Stojanovic, Milica Nesic');
+INSERT INTO ImenaVlasnika (ModnaKuca, ImenaVlasnika) VALUES 
+('Fashion Forward', 'Kristina Nesic');
+
+
+
+
+INSERT INTO Casopisi (Maneken, NaziviCasopisa) VALUES 
+(1111111111111, 'Vogue');
+INSERT INTO Casopisi (Maneken, NaziviCasopisa) VALUES 
+(2222222222222, 'Elle');
+INSERT INTO Casopisi (Maneken, NaziviCasopisa) VALUES 
+(3333333333333, 'PlayBoy');
+INSERT INTO Casopisi (Maneken, NaziviCasopisa) VALUES 
+(4444444444444, 'FashionSlides');
+INSERT INTO Casopisi (Maneken, NaziviCasopisa) VALUES 
+(3333333333333, 'FrameworkFashion');
+INSERT INTO Casopisi (Maneken, NaziviCasopisa) VALUES 
+(5555555555555, '5thSlide');
+INSERT INTO Casopisi (Maneken, NaziviCasopisa) VALUES 
+(5555555555555, 'FashionMoron');
+INSERT INTO Casopisi (Maneken, NaziviCasopisa) VALUES 
+(7777777777777, 'OrionFash');
+
+
+
+
+INSERT INTO Nastupa (ModnaRevija, ManekenMBR) VALUES 
+(4, 1111111111111);
+INSERT INTO Nastupa (ModnaRevija, ManekenMBR) VALUES 
+(5, 3333333333333);
+INSERT INTO Nastupa (ModnaRevija, ManekenMBR) VALUES 
+(6, 1111111111111);
+INSERT INTO Nastupa (ModnaRevija, ManekenMBR) VALUES 
+(7, 3333333333333);
+INSERT INTO Nastupa (ModnaRevija, ManekenMBR) VALUES 
+(8, 5555555555555);
+INSERT INTO Nastupa (ModnaRevija, ManekenMBR) VALUES 
+(6, 3333333333333);
+INSERT INTO Nastupa (ModnaRevija, ManekenMBR) VALUES 
+(4, 5555555555555);
+
+
+INSERT INTO NaziviZemalja (ModnaAgencija, Zemlje) VALUES 
+('345678901', 'Francuska');
+INSERT INTO NaziviZemalja (ModnaAgencija, Zemlje) VALUES 
+('345678901', 'Portugalija');
+INSERT INTO NaziviZemalja (ModnaAgencija, Zemlje) VALUES 
+('567890123', 'Brazil');
+INSERT INTO NaziviZemalja (ModnaAgencija, Zemlje) VALUES 
+('567890123', 'Argentina');
+INSERT INTO NaziviZemalja (ModnaAgencija, Zemlje) VALUES 
+('678901234', 'Kina');
+INSERT INTO NaziviZemalja (ModnaAgencija, Zemlje) VALUES 
+('678901234', 'Irska');
+INSERT INTO NaziviZemalja (ModnaAgencija, Zemlje) VALUES 
+('789012345', 'Francuska');

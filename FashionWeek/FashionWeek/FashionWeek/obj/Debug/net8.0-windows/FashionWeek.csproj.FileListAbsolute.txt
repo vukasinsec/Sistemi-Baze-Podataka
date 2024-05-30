@@ -1,0 +1,402 @@
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.exe
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.deps.json
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.runtimeconfig.json
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\FluentNHibernate.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\Iesi.Collections.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\NHibernate.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.AssemblyReference.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form1.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.GenerateResource.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfoInputs.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfo.cs
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.CoreCompileInputs.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\FashionW.F667414B.Up2Date
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\refint\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.genruntimeconfig.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\obj\Debug\net8.0-windows\ref\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll.config
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.exe
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll.config
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.deps.json
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.runtimeconfig.json
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FluentNHibernate.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Iesi.Collections.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\NHibernate.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.AssemblyReference.cache
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form1.resources
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.GenerateResource.cache
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfoInputs.cache
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfo.cs
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.CoreCompileInputs.cache
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.sourcelink.json
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionW.F667414B.Up2Date
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\refint\FashionWeek.dll
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.genruntimeconfig.cache
+C:\Users\Kristina\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\ref\FashionWeek.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.exe
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll.config
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.deps.json
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.runtimeconfig.json
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FluentNHibernate.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Iesi.Collections.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\NHibernate.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.AssemblyReference.cache
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form1.resources
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.GenerateResource.cache
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfoInputs.cache
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfo.cs
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.CoreCompileInputs.cache
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.sourcelink.json
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionW.F667414B.Up2Date
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\refint\FashionWeek.dll
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.genruntimeconfig.cache
+C:\Users\Kristina\Desktop\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\ref\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.AssemblyReference.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form1.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form2.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModneRevijeForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Properties.Resources.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.GenerateResource.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfoInputs.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfo.cs
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.CoreCompileInputs.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.sourcelink.json
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\refint\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.exe
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll.config
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.deps.json
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.runtimeconfig.json
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FluentNHibernate.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Iesi.Collections.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\NHibernate.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionW.F667414B.Up2Date
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.genruntimeconfig.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\ref\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaRevijaDodajForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.OrganizatoriForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaRevijaUpdateForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModneKuceForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaKucaDodajForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaKucaUpdateForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaDodajForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.NaziviZemaljaForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaUpdateForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.SviManekeniForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekeniForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekenDodajForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.SveModneRevijeForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekeniNastupajuForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\sbp novo\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorPredstavljaForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.exe
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll.config
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.deps.json
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.runtimeconfig.json
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FluentNHibernate.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Iesi.Collections.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\NHibernate.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.AssemblyReference.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form1.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form2.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekenDodajForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekeniForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekeniNastupajuForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaDodajForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaUpdateForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaKucaDodajForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaKucaUpdateForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaRevijaDodajForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaRevijaUpdateForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModneKuceForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModneRevijeForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorPredstavljaForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.OrganizatoriForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.SveModneRevijeForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.SviManekeniForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Properties.Resources.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.GenerateResource.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfoInputs.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfo.cs
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.CoreCompileInputs.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionW.F667414B.Up2Date
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\refint\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.genruntimeconfig.cache
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\ref\FashionWeek.dll
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatoriIzModneKuceForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatoriDodajForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorOrganizatorForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.OrganizatorDodajForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatoriOrganizatoriDodajForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorUpdateForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Agencija.DodajZemljeZaModnuAgenciju.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Maneken.DodajCasopiseZaManekenaForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Kuca.DodajVlasnikeZaModnuKucuForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Revija.RevijeManekenaForm.resources
+C:\Users\Windows10\Desktop\FAKS\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Revija.DodajSpecijalnogGostaForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.exe
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll.config
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.deps.json
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.runtimeconfig.json
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FluentNHibernate.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Iesi.Collections.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\NHibernate.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.AssemblyReference.cache
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form1.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form2.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Maneken.DodajCasopiseZaManekenaForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekenDodajForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekeniForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekeniNastupajuForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.SviManekeniForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Agencija.DodajZemljeZaModnuAgenciju.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaDodajForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaUpdateForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Kuca.DodajVlasnikeZaModnuKucuForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaKucaDodajForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaKucaUpdateForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModneKuceForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaRevijaDodajForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaRevijaUpdateForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModneRevijeForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Revija.RevijeManekenaForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.SveModneRevijeForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatoriDodajForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatoriIzModneKuceForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatoriOrganizatoriDodajForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorOrganizatorForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorPredstavljaForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorUpdateForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.OrganizatorDodajForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.OrganizatoriForm.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Properties.Resources.resources
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.GenerateResource.cache
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfoInputs.cache
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfo.cs
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.CoreCompileInputs.cache
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionW.F667414B.Up2Date
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\refint\FashionWeek.dll
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.genruntimeconfig.cache
+C:\Users\Kristina\Downloads\Sistemi Baze Podataka\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\ref\FashionWeek.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.exe
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll.config
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.deps.json
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.runtimeconfig.json
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FluentNHibernate.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Iesi.Collections.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\NHibernate.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.AssemblyReference.cache
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form1.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form2.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Maneken.DodajCasopiseZaManekenaForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekenDodajForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekeniForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekeniNastupajuForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.SviManekeniForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Agencija.DodajZemljeZaModnuAgenciju.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaDodajForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaUpdateForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Kuca.DodajVlasnikeZaModnuKucuForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaKucaDodajForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaKucaUpdateForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModneKuceForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaRevijaDodajForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaRevijaUpdateForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModneRevijeForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Revija.RevijeManekenaForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.SveModneRevijeForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatoriDodajForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatoriIzModneKuceForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatoriOrganizatoriDodajForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorOrganizatorForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorPredstavljaForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorUpdateForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.OrganizatorDodajForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.OrganizatoriForm.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Properties.Resources.resources
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.GenerateResource.cache
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfoInputs.cache
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfo.cs
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.CoreCompileInputs.cache
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionW.F667414B.Up2Date
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\refint\FashionWeek.dll
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.genruntimeconfig.cache
+C:\Users\Kristina\Desktop\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\ref\FashionWeek.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.exe
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll.config
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.deps.json
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.runtimeconfig.json
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\FluentNHibernate.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Iesi.Collections.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\NHibernate.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.AssemblyReference.cache
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form1.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Form2.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Maneken.DodajCasopiseZaManekenaForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekenDodajForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekeniForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ManekeniNastupajuForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.SviManekeniForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Agencija.DodajZemljeZaModnuAgenciju.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaDodajForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaAgencijaUpdateForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Kuca.DodajVlasnikeZaModnuKucuForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaKucaDodajForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaKucaUpdateForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModneKuceForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaRevijaDodajForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModnaRevijaUpdateForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModneRevijeForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.Modna_Revija.RevijeManekenaForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.SveModneRevijeForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatoriDodajForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatoriIzModneKuceForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatoriOrganizatoriDodajForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorOrganizatorForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorPredstavljaForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.ModniKreatorUpdateForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.OrganizatorDodajForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Forme.OrganizatoriForm.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.Properties.Resources.resources
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.GenerateResource.cache
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfoInputs.cache
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.AssemblyInfo.cs
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.csproj.CoreCompileInputs.cache
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionW.F667414B.Up2Date
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\refint\FashionWeek.dll
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.pdb
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\FashionWeek.genruntimeconfig.cache
+C:\Users\Kristina\Desktop\Projekat2\FashionWeek\FashionWeek\obj\Debug\net8.0-windows\ref\FashionWeek.dll

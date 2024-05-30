@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Maneken\DodajCasopiseZaManekenaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Maneken\ManekenDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Maneken\ManekeniForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Maneken\ManekeniNastupajuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Agencija\DodajZemljeZaModnuAgenciju.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Agencija\ModnaAgencijaDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Agencija\ModnaAgencijaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Agencija\ModnaAgencijaUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Kuca\DodajVlasnikeZaModnuKucuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Kuca\ModnaKucaDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Kuca\ModnaKucaUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Revija\ModnaRevijaDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Revija\ModnaRevijaUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Kuca\ModneKuceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Revija\ModneRevijeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Revija\RevijeManekenaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modni Kreator\ModniKreatoriDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modni Kreator\ModniKreatoriIzModneKuceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modni Kreator\ModniKreatoriOrganizatoriDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modni Kreator\ModniKreatorOrganizatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modni Kreator\ModniKreatorPredstavljaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modni Kreator\ModniKreatorUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Organizator\OrganizatorDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Organizator\OrganizatoriForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Modna Revija\SveModneRevijeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\Maneken\SviManekeniForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
